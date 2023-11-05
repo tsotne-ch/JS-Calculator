@@ -1,6 +1,6 @@
 # JS-Calculator
 
-[![Simple JQuery Calculator](https://github.com/tsotne-ch/JS-Calculator/assets/144833141/fdd22678-f98d-48b5-86e9-284841f5a01b)](tsotne-ch.github.io/JS-Calculator/)
+[![Simple JQuery Calculator](github.com/tsotne-ch/JS-Calculator/assets/144833141/fdd22678-f98d-48b5-86e9-284841f5a01b)](tsotne-ch.github.io/JS-Calculator/)
 
 
 I have been learning web-development recently and my goal is to become a Full-Stack Web-Developer.
