@@ -1,5 +1,7 @@
 # JS-Calculator
 
+[## Click here to visit the page](https://tsotne-ch.github.io/JS-Calculator/)
+
 [![Simple JQuery Calculator](https://github.com/tsotne-ch/JS-Calculator/assets/144833141/fdd22678-f98d-48b5-86e9-284841f5a01b)](https://tsotne-ch.github.io/JS-Calculator/)
 
 
