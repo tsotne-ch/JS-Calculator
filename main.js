@@ -129,7 +129,7 @@ $('#eql').on('click', function() {
         default:
             break;
     }
-    currentEntry = parseFloat((currentEntry).toFixed(6))
+    currentEntry = parseFloat((currentEntry).toFixed(15))
     $('.operator').html("");
     updateDisplay();
 })
