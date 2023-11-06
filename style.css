@@ -98,3 +98,12 @@ button:focus{
         box-shadow: 0 0 30px 0 rgba(120, 1, 255, 0.168);
     }
 }
+
+.previous{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: rgba(192, 224, 255, 0.171);
+    font-size: 12px;
+    font-family: sans-serif;
+}

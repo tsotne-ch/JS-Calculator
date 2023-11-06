@@ -4,6 +4,11 @@ let errorcode = 0;
 
 function updateDisplay(){
     $('.output').html(currentEntry);
+    if(previousEntry == 0){
+        $('.previous').html("")
+    } else {
+        $('.previous').html(previousEntry)
+    }
     // console.log(currentEntry);
 }
 
@@ -109,7 +114,6 @@ $('#eql').on('click', function() {
     switch ($('.operator').html()){
         case "+":
             currentEntry = (parseFloat(currentEntry) + parseFloat(previousEntry));
-            $('.operator').html("");
             updateDisplay();
             break;
         case "-":
@@ -122,6 +126,9 @@ $('#eql').on('click', function() {
             if(currentEntry === "0"){
                 currentEntry = "Cannot Divide by Zero!";
                 errorcode = 1;
+                $('.operator').html("");
+                previousEntry = 0;
+                updateDisplay();
                 break;
             }
             currentEntry = (parseFloat(previousEntry) / parseFloat(currentEntry));
@@ -131,6 +138,7 @@ $('#eql').on('click', function() {
     }
     currentEntry = parseFloat((currentEntry).toFixed(15))
     $('.operator').html("");
+    previousEntry = 0;
     updateDisplay();
 })
 
